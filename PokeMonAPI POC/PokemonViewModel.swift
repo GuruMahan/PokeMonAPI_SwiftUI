@@ -8,7 +8,6 @@
 import Foundation
 
 class PokemonViewModel: ObservableObject {
-    
     @Published var dataList : PokemonModel?
     
     init() {
